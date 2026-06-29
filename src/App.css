@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: rgb(138, 138, 222);
+  cursor: pointer;
+}
+
+h1,h2:hover{
+  text-decoration: underline;
+}
+
+.Card{
+  border: 1px solid black;
+  width: 300px;
+  height: max-content;
+  padding: 20px;
+   background-color: rgb(183, 177, 177);
+}
+
+.CardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.Card > img{
+  width: 250px;
+}
+
+.Card > p{
+  font-size: 18px;
+  text-overflow: ellipsis;
+  color: rgb(186, 112, 21);
+}
+
+.Card > span{
+  font-size: 16px;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
