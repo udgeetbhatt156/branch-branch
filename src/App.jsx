@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Fotter';
 import Pagination from './components/Pagination';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -14,6 +15,7 @@ function App() {
       <Pagination />
     </div>
     {/* <Footer/> */}
+    <Footer/>
     </>
   )
 }
